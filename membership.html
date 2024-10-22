@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="images/TMCicon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/membership.css" />
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+    <!--owl carousel-->
+    <link type="text/css" rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,600i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,500i,600,600i" rel="stylesheet">
+    <title>TMC Tennis Club Membership Page</title>
+  </head>
+
+  <body>
+    <div class="membership">
+      <nav>
+        <div class="navcontainer">
+            <div class="menu-par">
+                <div class="logo-par">
+                    <a href="home.html">
+                        <image src="images/TMC.png">
+                    </a>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a class="menu_hover" href="home.html">Home</a></li>
+                        <li><a class="menu_hover" href="about.html">About</a></li>
+                        <li><a class="menu_hover" href="gallery.html">Gallery</a></li>
+                        <li><a class="menu_hover" href="events.html">Events</a></li>
+                        <li><a class="menu_hover" href="membership.html">Membership</a></li>
+                        <li><a class="menu_hover" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="toggle-btn">
+                    <i class="fa fa-bars"></i>
+                </div>
+            </div>
+        </div>
+      </nav>
+
+        <div class="container">
+            <div class="forms-container">
+              <div class="signin-signup">
+                <form id="login" name="login form" action="php/login.php" method="post" class="sign-in-form">
+                  <h2 class="title">Sign in</h2>
+                  <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="username" placeholder="Username" required/>
+                  </div>
+
+                  <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" required/>
+                  </div>
+
+                  <input type="submit" name="login" value="Login" class="btn solid" />
+                  <p class="social-text">Or Sign in with social platforms</p>
+
+                  <div class="icons">
+                      <a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+                      <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+                      <a href="https://www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+                      <a href="https://www.google.com"><ion-icon name="logo-google"></ion-icon></a>
+                      <a href="https://www.skype.com"><ion-icon name="logo-skype"></ion-icon></a>
+                  </div>
+                </form>
+
+                <form id="register" name="register form" action="php/register.php" method="post" class="sign-up-form">
+                  <h2 class="title">Sign up</h2>
+                  <div class="input-field">
+                    <i class="fas fa-user"></i>
+                    <input type="text" name="username" placeholder="Username" required/>
+                  </div>
+                  <div class="input-field">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" name="email" placeholder="Email" required/>
+                  </div>
+                  <div class="input-field">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" name="password" placeholder="Password" required/>
+                  </div>
+                  <div class="input-field">
+                      <i class="fas fa-lock"></i>
+                      <input type="password" placeholder="Confirm Password" required/>
+                    </div>
+                  <input type="submit" name="register" class="btn" value="Sign up" />
+                  <p class="social-text">Or Sign up with social platforms</p>
+                  <div class="icons">
+                      <a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+                      <a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a>
+                      <a href="https://www.twitter.com"><ion-icon name="logo-twitter"></ion-icon></a>
+                      <a href="https://www.google.com"><ion-icon name="logo-google"></ion-icon></a>
+                      <a href="https://www.skype.com"><ion-icon name="logo-skype"></ion-icon></a>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here?</h3><br>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us?</h3><br>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="js/membership.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/extrenaljq.js"></script>
+  </body>
+</html>
